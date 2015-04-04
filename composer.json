@@ -1,0 +1,25 @@
+{
+    "name": "blackboxcode/pando-product-sale-bundle",
+    "description": "Pando ProductSaleBundle",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Black Box Code",
+            "email": "contact@blackboxcode.com"
+        }
+    ],
+    "keywords": ["pando product sale bundle"],
+    "license": ["LGPL-3.0"],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {"BlackBoxCode\\Pando\\ProductSale\\": ""}
+    },
+    "repositories": [{
+    }],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "develop"
+        }
+    }
+}
