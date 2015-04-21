@@ -86,4 +86,26 @@ interface TransactionInterface
      * @param TransactionInterface $child
      */
     public function removeChild(TransactionInterface $child);
+
+    /**
+     * @return TransactionPathResultInterface
+     */
+    public function getSource();
+
+    /**
+     * @param TransactionPathResultInterface $source
+     * @return $this
+     */
+    public function setSource(TransactionPathResultInterface $source);
+
+    /**
+     * @return TransactionPathResultInterface
+     */
+    public function getDestination();
+
+    /**
+     * @param TransactionPathResultInterface $destination
+     * @return $this
+     */
+    public function setDestination(TransactionPathResultInterface $destination);
 }

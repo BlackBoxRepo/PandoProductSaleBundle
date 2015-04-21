@@ -208,4 +208,36 @@ trait TransactionTrait
         if (is_null($this->children)) $this->children = new ArrayCollection();
         $this->children->removeElement($child);
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getSource()
+    {
+
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setSource(TransactionPathResultInterface $source)
+    {
+        return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getDestination()
+    {
+
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setDestination(TransactionPathResultInterface $destination)
+    {
+        return $this;
+    }
 }
