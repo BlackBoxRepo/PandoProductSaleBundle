@@ -28,7 +28,7 @@ trait RegionZoneTrait
     /**
      * {@inheritdoc}
      */
-    public function addAvailabilityProduct(AvailabilityProductInterface $availabilityProduct)
+    public function addAvailabilityProduct(ProductInterface $availabilityProduct)
     {
         if (is_null($this->availabilityProducts)) $this->availabilityProducts = new ArrayCollection();
         $this->availabilityProducts->add($availabilityProduct);
@@ -39,7 +39,7 @@ trait RegionZoneTrait
     /**
      * {@inheritdoc}
      */
-    public function removeAvailabilityProduct(AvailabilityProductInterface $availabilityProduct)
+    public function removeAvailabilityProduct(ProductInterface $availabilityProduct)
     {
         if (is_null($this->availabilityProducts)) $this->availabilityProducts = new ArrayCollection();
         $this->availabilityProducts->removeElement($availabilityProduct);
