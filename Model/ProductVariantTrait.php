@@ -21,7 +21,7 @@ trait ProductVariantTrait
     /**
      * @var ProductVariantInventoryInterface
      *
-     * @ORM\OneToOne(targetEntity="ProductVariantInventory", mappedBy="variant")
+     * @ORM\OneToOne(targetEntity="ProductVariantInventory", mappedBy="productVariant")
      */
     private $inventory;
 

@@ -29,7 +29,7 @@ trait SaleFlowFlagTrait
     /**
      * @var SaleFlowFlagTypeInterface
      *
-     * @ORM\ManyToOne(targetEntity="SaleFlowFlagType", inversedBy="SaleFlowFlag")
+     * @ORM\ManyToOne(targetEntity="SaleFlowFlagType")
      * @ORM\JoinColumn(nullable=false)
      */
     private $type;

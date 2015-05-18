@@ -29,7 +29,7 @@ trait SaleItemTrait
     /**
      * @var ProductVariantInterface
      *
-     * @ORM\ManyToOne(targetEntity="ProductVariant", inversedBy="saleItems")
+     * @ORM\ManyToOne(targetEntity="ProductVariant")
      * @ORM\JoinColumn(nullable=false)
      */
     private $productVariant;
