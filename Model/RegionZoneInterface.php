@@ -1,9 +1,9 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\ProductSaleBundle\Model;
+namespace BlackBoxCode\Pando\ProductSaleBundle\Model;
 
 use Doctrine\Common\Collections\ArrayCollection;
 
-interface RegionZoneInterface extends \BlackBoxCode\Pando\Bundle\ContactInfoBundle\Model\RegionZoneInterface
+interface RegionZoneInterface extends \BlackBoxCode\Pando\ContactInfoBundle\Model\RegionZoneInterface
 {
     /**
      * @return ArrayCollection<ProductInterface>

@@ -1,7 +1,7 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\ProductSaleBundle\Model;
+namespace BlackBoxCode\Pando\ProductSaleBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdTrait;
+use BlackBoxCode\Pando\BaseBundle\Model\IdTrait;
 use Doctrine\ORM\Mapping as ORM;
 
 /**

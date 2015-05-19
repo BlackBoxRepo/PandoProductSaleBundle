@@ -1,7 +1,7 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\ProductSaleBundle\Model;
+namespace BlackBoxCode\Pando\ProductSaleBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\BaseBundle\Model\TypeInterface;
+use BlackBoxCode\Pando\BaseBundle\Model\TypeInterface;
 
 interface ProductPriceTypeInterface extends TypeInterface
 {

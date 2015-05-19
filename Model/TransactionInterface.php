@@ -1,5 +1,5 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\ProductSaleBundle\Model;
+namespace BlackBoxCode\Pando\ProductSaleBundle\Model;
 
 use Doctrine\Common\Collections\ArrayCollection;
 

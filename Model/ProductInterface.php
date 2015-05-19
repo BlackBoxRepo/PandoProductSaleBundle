@@ -1,7 +1,7 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\ProductSaleBundle\Model;
+namespace BlackBoxCode\Pando\ProductSaleBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdInterface;
+use BlackBoxCode\Pando\BaseBundle\Model\IdInterface;
 use Doctrine\Common\Collections\ArrayCollection;
 
 interface ProductInterface extends IdInterface

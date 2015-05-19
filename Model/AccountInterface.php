@@ -1,9 +1,9 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\ProductSaleBundle\Model;
+namespace BlackBoxCode\Pando\ProductSaleBundle\Model;
 
 use Doctrine\Common\Collections\ArrayCollection;
 
-interface AccountInterface extends \BlackBoxCode\Pando\Bundle\AccountBundle\Model\AccountInterface
+interface AccountInterface extends \BlackBoxCode\Pando\AccountBundle\Model\AccountInterface
 {
     /**
      * @return ArrayCollection<SaleInterface>
